@@ -13,7 +13,6 @@ I've performed above command already, so you are going to find pregenerated lens
 
 Now we can use lenses...
 
-
 # Usage
 
 Just look into `Main.purs` you can find (run and modify) these examples:
@@ -27,4 +26,8 @@ Just look into `Main.purs` you can find (run and modify) these examples:
 
     over (L._Person <<< L.age) (_ + 3) paluh
     ```
+
+# Usage of generics
+
+I've used generics (in `Person.purs`) to generate `Show` instances automatically, but it's not really part of this example. You can ignore all imports and generics related declarations.
 
