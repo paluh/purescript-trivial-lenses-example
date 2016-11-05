@@ -1,4 +1,4 @@
-# Trivial example of lenses generation and usage in purescript
+# Trivial example of lenses generation and usage in PureScript
 
 # Generation
 
