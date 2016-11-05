@@ -17,8 +17,8 @@ Now we can use lenses...
 
 Just look into `Main.purs` - there you can find (run and modify) these examples:
 
-```purescript
 
+```purescript
 paluh = Person {fullName: "paluh", age: 35, gender: Male}
 
 view (L._Person <<< L.fullName) paluh
@@ -26,7 +26,6 @@ view (L._Person <<< L.fullName) paluh
 set (L._Person <<< L.fullName) "Sir Paluh" paluh
 
 over (L._Person <<< L.age) (_ + 3) paluh
-
 ```
 
 # Usage of generics
